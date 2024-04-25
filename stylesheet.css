@@ -1,0 +1,56 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.container {
+    max-width: 650px;
+    text-align: center;
+    border: 3px solid #113f67; 
+    border-radius: 1rem;
+    margin: 4rem auto;
+    background-color: #e7eaf6;
+    color:#113f67
+}
+h1{
+    font-size: 2rem;
+    padding: 1rem 1rem;
+}
+#dataBox1, #dataBox2{
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
+button{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    background-color: #a2a8d3;
+    border-radius: 0.5rem;
+}
+
+#outputArea{
+    margin: 2rem 12rem;
+    padding: 1.5rem;
+    border: 0.5px solid #113f67; 
+    border-radius: 1rem;
+    text-align: center;
+    background-color: white;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) { 
+    .container {
+        max-width: 80%;
+    }
+    #dataBox1, #dataBox2, button {
+        margin: 0.5rem;
+    }
+    #label{
+        font-size: 0.3rem; 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        max-width: 90%;
+    }
+}
